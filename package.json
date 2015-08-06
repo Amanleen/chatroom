@@ -1,0 +1,25 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "create a chatroom with multiple users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amanleen/chatroom.git"
+  },
+  "keywords": [
+    "chatroom"
+  ],
+  "author": "akp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amanleen/chatroom/issues"
+  },
+  "homepage": "https://github.com/Amanleen/chatroom#readme",
+  "dependencies": {
+    "express": "^4.13.2"
+  }
+}
