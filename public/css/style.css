@@ -1,0 +1,55 @@
+/*body {
+    background-color: #d0e4fe;
+}*/
+#message-table{
+	background-color: #ffffff;
+	vertical-align:center;
+	text-align: center;
+	margin: auto;
+}
+/*
+nav ul{height:200px; width:18%;}
+nav ul{overflow:hidden; overflow-y:scroll;}
+*/
+
+.message-list{
+	list-style-type:none;
+	vertical-align:top;
+	text-align: center;
+	width:200px;
+	height:500px;
+	overflow:auto;
+}
+.chatroom-list-element-table{
+	vertical-align:center;
+	text-align: left;
+	width:100%;
+	background-color: #F0F0F0;
+	border: 1px solid white;
+}
+.chatroom-list-header{
+	vertical-align:center;
+}
+.chatroom-list-header-name{
+	vertical-align:center;
+	text-align: left;
+	color:#7A7A7A;
+	font: 18px arial, sans-serif;
+}
+.chatroom-list-header-date{
+	vertical-align:center;
+	text-align: right;
+	color:#8F8F8F;
+	font: 10px arial, sans-serif;
+}
+.chatroom-list-body{
+	vertical-align:center;
+	color:#8F8F8F;
+	font: 14px arial, sans-serif;
+}
+/*.menu ul li {
+    float: none; 
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid pink; 
+    position: relative;
+}*/
