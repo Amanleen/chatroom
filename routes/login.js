@@ -48,7 +48,7 @@ router.route('/')
 var checkUsernameAndCreate = function(name, callback){ //chk 4 null also
 	name = "'"+name+"'";
 	var userId=0;
-	var chatRoomName="'FSC CHATROOM'";	//place this in a config file
+	var chatRoomName="'FSE CHATROOM'";	//place this in a config file
 	var chatRoomId=0;
 	// console.log("======== name=", name);
 	db.serialize(function()
@@ -112,7 +112,7 @@ function createTables(callback){
 function populateDb(callback){
 	db.serialize(function()
 	{
-		db.run("insert or ignore into chatroom(name) values ('FSC CHATROOM')");
+		db.run("insert or ignore into chatroom(name) values ('FSE CHATROOM')");
 		callback();
 	});
 }
