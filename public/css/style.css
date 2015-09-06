@@ -1,30 +1,32 @@
 /*body {
     background-color: #d0e4fe;
 }*/
+#letterpress h1 {
+	text-shadow: 0px 1px 1px #4d4d4d;
+	color: #222;
+	font: 80px 'LeagueGothicRegular';
+}
 #message-table{
 	background-color: #ffffff;
 	vertical-align:center;
 	text-align: center;
+	width:35%;
 	margin: auto;
+	padding:50px;
+	/*border-style: groove;*/
+	border-style: solid;
+	border=2;
 }
-/*
-nav ul{height:200px; width:18%;}
-nav ul{overflow:hidden; overflow-y:scroll;}
-*/
+#chatmessageform-table{
+margin: auto;
 
-.message-list{
-	list-style-type:none;
-	vertical-align:top;
-	text-align: center;
-	width:200px;
-	height:500px;
-	overflow:auto;
 }
 .chatroom-list-element-table{
 	vertical-align:center;
 	text-align: left;
 	width:100%;
 	background-color: #F0F0F0;
+	padding-bottom: 10px;
 	border: 1px solid white;
 }
 .chatroom-list-header{
@@ -34,17 +36,27 @@ nav ul{overflow:hidden; overflow-y:scroll;}
 	vertical-align:center;
 	text-align: left;
 	color:#7A7A7A;
-	font: 18px arial, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+/*	padding-left: 5px;*/
+	font: 15px arial, sans-serif;
 }
 .chatroom-list-header-date{
 	vertical-align:center;
 	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*padding-right: 5px;*/
 	color:#8F8F8F;
 	font: 10px arial, sans-serif;
 }
 .chatroom-list-body{
 	vertical-align:center;
 	color:#8F8F8F;
+	/*padding-left: 5px;
+	padding-right: 5px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font: 14px arial, sans-serif;
 }
 /*.menu ul li {

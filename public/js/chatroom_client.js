@@ -58,7 +58,7 @@ $(function(){
 			content = '<table class="chatroom-list-element-table"><tr class="chatroom-list-header"><td class="chatroom-list-header-name">'+messageDetails.username+'</td><td class="chatroom-list-header-date">'+creationTime+'</td></tr><tr class="chatroom-list-body"><td colspan=2>'+messageDetails.textMessage+'</td></tr></table>';
       		list.push($('<li>', { html: content }));
 		}
-		$('.message-list').append(list);
+		$('.list-unstyled').append(list);
 	}
 
 	function getMessageHistory(){
